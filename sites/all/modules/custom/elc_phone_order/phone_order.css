@@ -1,0 +1,30 @@
+
+/*.csrHide { display: none; }*/
+            #csr_header_holder {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                z-index: 9999;
+                padding-left: 600px;
+            }
+            #csr_header {
+                position: absolute;
+                width: auto;
+                border: 5px red solid;
+                padding: 10px;
+                font-size: 11px;
+                font-family: 'monospace';
+                background-color: white;
+            }
+            #csr_header a { font-size: 11px; }
+            #csr_dragger {
+                border-left: 30px red solid;
+                cursor: pointer;
+                padding-right: 8px;
+            }
+            #csr_info_box {
+                border-right: 1px red solid;
+                padding-right: 20px;
+            }
+            #csr_registered_user_info { padding-left: 20px; }

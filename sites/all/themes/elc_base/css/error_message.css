@@ -1,0 +1,13 @@
+#console .messages, .main-console .messages {
+  margin: 4px 0;
+  padding: 5px 20px 20px;
+}
+
+#console .messages span#error-close, .main-console .messages span#error-close {
+  display: inline-block;
+  cursor: pointer;
+  font-size: large;
+  width: 100%;
+  text-align: right;
+}
+

@@ -1,0 +1,30 @@
+
+/**
+ * This is only here to fix an issue with embedded block's' titles
+ **/
+
+.dialog-message {
+  display: none
+}
+.ui-dialog .dialog-message {
+  display: block
+}
+.ui-dialog {
+    display:none;
+}
+
+#edit-brand-locales {
+  line-height: 28px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+td.ctools-export-ui-operations .ctools-dropbutton {
+  position: relative !important;
+}
+
+.basic-noderef-v1:first-child .contextual-links-wrapper,
+.drupal-embed:first-child .contextual-links-wrapper {
+  top: 15px;
+  z-index: 9999;
+}
